@@ -7,7 +7,7 @@ module "eks" {
   iam_role_arn    = "arn:aws:iam::605855663520:role/eksctl-prod-cluster-cluster-ServiceRole-5qmvNy54Gpkt"
 
   endpoint_private_access = true
-  endpoint_public_access  = false
+  endpoint_public_access  = true
 
   enabled_log_types = ["api", "audit", "authenticator", "controllerManager", "scheduler"]
 
