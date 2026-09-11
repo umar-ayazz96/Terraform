@@ -1,4 +1,3 @@
-#Setting up the provider for AWS
 terraform {
     
     required_providers {
@@ -7,9 +6,9 @@ terraform {
          }
     }
     required_version = ">= 1.0"
-   
-}
 
+    
+}
 
 
 #Setting up the AWS Region
